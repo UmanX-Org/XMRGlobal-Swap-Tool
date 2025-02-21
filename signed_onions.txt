@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+This file contains .onion addresses signed with XMRGlobal GPG key for authenticity.
+You can verify the signature to ensure that these addresses have not been tampered with.
+
+https://xmrglobal.io/pgp
+
+This message was signed at Monero block Height 3352777
+
+
+cqy2caejjpclixkumyvb24agvyth67znr7koee5264i6ucjxno3rcaid.onion
+5a2k6b3ov6w2ryl5th3jnsrujqj4x4micvxz75pbeama47fzonnwwcyd.onion
+2syzexutltau2n455oryarrervet36fzj2sksxbkpmg5anzustojsvid.onion
+5arhxqhg6sbken6qfnlnb4ozw3m7kzhjafqhzt5fcgdpy5s7qcjfciad.onion
+xdbokl4gkghiruj66q2vdlamx76rdza6mojv4iizdoc7tvwut2ssf5id.onion
+n4qqn4b4j5xnzzarikgtujm3atg3l5ld7snfvrwejgwmpb3k3zqxduqd.onion
+lfxzeipdedi5ybxy7azm3rh5lzwberpsugevdcddg7x2uqivjffy3zad.onion
+qiwntfdosxsoeuty2jqzcazhiwwvyrv77hejxf5fakvochnkge2e6eid.onion
+wdqbafeegcfwgbs46xcvbcl3o2k336bp7s3sacp33sfxzp5kv4uprjad.onion
+-----BEGIN PGP SIGNATURE-----
+
+iQKTBAEBCgB9FiEEQkZVK3Itf1FzgDKyKtQmVb1SJ/UFAme5AgBfFIAAAAAALgAo
+aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDQy
+NDY1NTJCNzIyRDdGNTE3MzgwMzJCMjJBRDQyNjU1QkQ1MjI3RjUACgkQKtQmVb1S
+J/UrABAAnwxMpbW3MUl5sAAY2aCSLg+s9skqVyRDeSRmoVSx9bYHQvm+jmMZsNU2
+EvTm78jZ4gg1kzkQkcXPnViCHPbtlGOC6HnSTJMlJ56bocgoXHrSOFRfIKu5gxFo
+6UmTUPEf+KGqJbfduqh9cLFoD2/699qHH5vm+qNrExuZOcb0rr2i3rI1RMPQ5W1J
+581cTTzJ+dlJeU7lIn1JO8Jx+3EMUWfuW77/EPafIlu0FMGM/K/acBHaJ7x59VoL
+V7XmF54TiBSpymjHl8p6meaRXvDidRg0LVYzy9TQR4hX1yAL9U+ApizNJivAQHcp
+SjMiRTrqLiB945h9MBcoZDg3yrPKw2lzISgCleC1sb+EprbSk6Fo45LZFvlWpl2E
+cFFQpgCtX+5SSPIbnI7wUk3QcOvveF7MEU8Jum+r5jI0nqfAopcwqGZSWgfZ0FYs
+4oW6RewhXfQTttirSkXhmMEpPpUbWloYF8fSolhpArVoKfVSWI9Mj+YHZ0P2F9SC
+pS31wKxOwS3cg4qDjxyS69btVUSjllRwD5Jb3Vo5RA/b1Rcyue41qP+jen2670nw
+bmHnTFnQlkcsdsASfkqZpXJsZZSrai8710yZay6OVlJzVyDA5+iYFD5A1WtD7dRj
+wqfiCHXsWUxIN8juhI8K5+TgWTo6f37yXHdY8VlREgXvhkMpLH8=
+=bv6q
+-----END PGP SIGNATURE-----
