@@ -7,7 +7,7 @@ A **privacy-first** Monero swap tool designed exclusively for **Tor networks**. 
 - **No KYC, No Logs** – No tracking, no data collection.  
 - **Monero-Centric** – Anonymous, censorship-resistant swaps.  
 - **Real-Time Exchange Rates** – Always up-to-date pricing.  
-- **`.onion` Support** – Uses hidden services for added security.  
+- **Multiple `.onion` Addresses** – Enhances security by randomizing access points.  
 
 ---
 
@@ -54,23 +54,10 @@ This setup ensures **all network requests go through Tor**, preserving your priv
 
 ---
 
-## Command-Line Version (`cli_cmd.py`)  
-For users who prefer a **fully command-line** experience, `cli_cmd.py` allows sending commands in one line. Example:  
-
-```bash
-python3 cli_cmd.py fetch_rates
-python3 cli_cmd.py create_swap XMR BTC 0.5 mybtcaddress
-python3 cli_cmd.py check_swap SWAP_ID
-```
-
-This version **does not** require CAPTCHA verification.  
-
----
-
 ## Security & Privacy  
-- **Tor-Only** – Works exclusively through `.onion` addresses for maximum privacy.  
+- **Tor-Only** – Works exclusively through multiple `.onion` addresses for maximum privacy and security.  
 - **No JavaScript** – Fully functional in a secure, minimal environment.  
-- **Self-Hosted Option** – Run your own instance for additional control.  
+- **Hosted on XMRGlobal `.onion` Services** – No self-hosting required.  
 - **Encrypted Communication** – All transactions are secured with PGP and Tor.  
 
 ---
@@ -84,7 +71,6 @@ This version **does not** require CAPTCHA verification.
 
 ## Privacy-Friendly CAPTCHA  
 To prevent automated abuse, `cli.py` includes a simple **CAPTCHA challenge** before creating a swap.  
-The command-line version (`cli_cmd.py`) **does not** require this verification.  
 
 ---
 
