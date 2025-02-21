@@ -18,7 +18,7 @@ Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/XMRGlobal/XMRGlobal-Swap-Tool.git
 cd XMRGlobal-Swap-Tool
-python3 client.py
+python3 XMRGlobal.py
 ```
 
 ---
@@ -28,17 +28,17 @@ python3 client.py
 ### On **Whonix** (Tor native)  
 Simply run:  
 ```bash
-python3 client.py
+python3 XMRGlobal.py
 ```
 
 ### On **Tails** (Tor native)  
 ```bash
-python3 client.py
+python3 XMRGlobal.py
 ```
 
 ### On **other systems** using `torsocks`  
 ```bash
-torsocks python3 client.py
+torsocks python3 XMRGlobal.py
 ```
 
 This setup ensures **all network requests go through Tor**, preserving your privacy.  
@@ -63,14 +63,14 @@ This setup ensures **all network requests go through Tor**, preserving your priv
 ---
 
 ## Error Handling  
-- If an error occurs, `cli.py` will **return to the main menu** instead of exiting.  
+- If an error occurs, `XMRGlobal.py` will **return to the main menu** instead of exiting.  
 - If a swap is in a **waiting state**, it will **display full deposit details** instead of showing the amount as "sent."  
 - Users can **delete all swap history** with confirmation (`yes/no`).  
 
 ---
 
 ## Privacy-Friendly CAPTCHA  
-To prevent automated abuse, `cli.py` includes a simple **CAPTCHA challenge** before creating a swap.  
+To prevent automated abuse, `XMRGlobal.py` includes a simple **CAPTCHA challenge** before creating a swap.  
 
 ---
 
