@@ -70,7 +70,7 @@ To verify:
 1. **Import the GPG key**:  
 
 from XMRglobal.io/pgp 
-
+from https://github.com/XMRGlobal/XMRGlobal-Swap-Tool/blob/main/XMRGlobal%20PGP%20key
 or
 
    ```bash
