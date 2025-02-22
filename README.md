@@ -43,6 +43,78 @@ python3 XMRGlobal.py
 torsocks python3 XMRGlobal.py
 ```
 
+### **🔹 Steps to Install & Run in Termux (Android, GrapheneOS, CalyxOS) **
+1️⃣ **Install Python in Termux** (if not installed)  
+```sh
+pkg update && pkg upgrade
+pkg install python
+```
+
+2️⃣ **Install Required Python Modules**  
+```sh
+pip install requests
+```
+
+3️⃣ **Run the Swap Tool with Orbot’s SOCKS5 Proxy**  
+Start **Orbot** → Enable **SOCKS5 Proxy** (127.0.0.1:9050)  
+
+```sh
+export ALL_PROXY=socks5h://127.0.0.1:9050
+python3 XMRGlobal.py
+```
+
+### **🛠 Running XMRGlobal Swap Tool on macOS with Tor**  
+
+Since macOS supports Python natively, you can run the **XMRGlobal Swap Tool** using **Tor's SOCKS5 proxy**.
+
+---
+
+## **🔹 Step 1: Install Python (If Not Installed)**  
+Check if Python is installed:  
+```sh
+python3 --version
+```
+If not, install it using Homebrew:  
+```sh
+brew install python
+```
+
+---
+
+## **🔹 Step 2: Install Required Python Dependencies**  
+```sh
+pip3 install requests
+```
+
+---
+
+## **🔹 Step 3: Install & Run Tor**  
+1️⃣ Install **Tor** using Homebrew:  
+```sh
+brew install tor
+```
+
+2️⃣ Start Tor in a new terminal window:  
+```sh
+tor
+```
+💡 **Tor runs a SOCKS5 proxy at `127.0.0.1:9050`**  
+
+---
+
+## **🔹 Step 4: Set Up SOCKS5 Proxy & Run the Swap Tool**  
+1️⃣ Open a new terminal window and export the proxy:  
+```sh
+export ALL_PROXY=socks5h://127.0.0.1:9050
+```
+
+2️⃣ Run the swap tool through Tor:  
+```sh
+python3 XMRGlobal.py
+```
+
+
+
 ## **How It Works**  
 1. **Fetch Exchange Rates** – Retrieve real-time rates for available swap pairs.  
 2. **Initiate a Swap** – Enter details and create a swap **privately**.  
