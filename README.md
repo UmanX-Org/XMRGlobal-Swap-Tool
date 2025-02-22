@@ -42,9 +42,6 @@ python3 XMRGlobal.py
 ```bash
 torsocks python3 XMRGlobal.py
 ```
-This ensures **all network requests go through Tor**, preserving anonymity.  
-
----
 
 ## **How It Works**  
 1. **Fetch Exchange Rates** – Retrieve real-time rates for available swap pairs.  
@@ -64,12 +61,6 @@ This ensures **all network requests go through Tor**, preserving anonymity.
 
 ---
 
-## **Error Handling & Improvements**  
-- If an error occurs, **XMRGlobal.py** will **return to the main menu** instead of exiting.  
-- When a swap is in a **waiting state**, it will **display full deposit details** instead of incorrectly marking the amount as "sent."  
-- **Swap History Management** – Users can **delete all saved swap records** with a simple confirmation prompt (`yes/no`).  
-
----
 
 ## **Verifying `.onion` Addresses**  
 This repository includes `.onion` addresses signed with **GPG** for authenticity.  
