@@ -69,9 +69,10 @@ To verify:
 
 1. **Import the GPG key**:  
 
-from XMRglobal.io/pgp 
+from https://XMRglobal.io/pgp
+
 from https://github.com/XMRGlobal/XMRGlobal-Swap-Tool/blob/main/XMRGlobal%20PGP%20key
-or
+
 
    ```bash
    gpg --keyserver hkps://keys.openpgp.org --recv-key 4246552B722D7F51738032B22AD42655BD5227F5
