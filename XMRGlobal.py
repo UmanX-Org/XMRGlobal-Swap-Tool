@@ -125,22 +125,16 @@ def delete_all_swap_history():
     else:
         print("❌ Swap history deletion canceled.")
 
-
-
-
 def check_swap_status():
-    """Check the status of an ongoing swap and display estimated receiving amount if applicable."""
+    """Check the status of an ongoing swap via API and display all details."""
     print_header()
     transaction_id = get_input("Enter your Transaction ID: ")
 
-    swap_file = os.path.join(SWAP_LOG_DIR, f"{transaction_id}.json")
-    if not os.path.exists(swap_file):
-        print("❌ Swap ID not found.")
-        return
-
+    url = f"{API_URL}/swap/status/{transaction_id}"
     try:
-        with open(swap_file, "r") as file:
-            data = json.load(file)
+        response = requests.get(url, timeout=15)
+        response.raise_for_status()
+        data = response.json()
 
         created_at = data.get("created_at", "Unknown time")
         status = data["status"].upper()
@@ -152,7 +146,6 @@ def check_swap_status():
         print(f"🔹 Transaction ID: {transaction_id}")
         print(f"📅 Created At: {created_at}")
         print(f"🔹 Status: {status}")
-
         print(f"\n🔹 **Swap Pair:** {deposit.get('symbol', '').upper()} → {withdrawal.get('symbol', '').upper()}")
 
         if status == "WAITING":
@@ -191,8 +184,10 @@ def check_swap_status():
             print("\n⏳ **Swap Expired.**")
             print("   - Your deposit was not received in time.")
 
-    except (json.JSONDecodeError, FileNotFoundError):
-        print("❌ Error reading swap data.")
+        save_swap(transaction_id, data)
+    except requests.RequestException as e:
+        print(f"❌ Error checking swap status: {e}")
+
 
 def view_my_swaps():
     """Lists all saved swaps with their date and time from 'created_at' field."""
@@ -214,6 +209,8 @@ def view_my_swaps():
                 print(f"🔹 Swap ID: {swap_id} | 📅 Date: {created_at}")
         except json.JSONDecodeError:
             print(f"⚠️ Error reading swap file: {swap}")
+
+
 
 def get_rate():
     """Fetch exchange rate and check min/max limits before proceeding."""
