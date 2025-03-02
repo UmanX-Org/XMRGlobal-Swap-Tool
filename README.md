@@ -27,6 +27,8 @@ python3 XMRGlobal.py
 
 ## **Usage**  
 
+https://youtu.be/7clOOMlZ0uE   Video - Tutorial 
+
 ### **On Whonix (Tor Native)**  
 Simply run:  
 ```bash
