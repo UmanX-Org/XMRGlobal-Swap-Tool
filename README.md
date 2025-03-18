@@ -12,7 +12,6 @@ A **privacy-first** Monero swap tool designed exclusively for **Tor networks**. 
 - 🔑 **PGP & Tor Security** – End-to-end encrypted communication.  
 
 ---
-
 ## **Installation**  
 
 Clone the repository and run the tool:  
@@ -169,3 +168,8 @@ This software is provided **as-is** with no warranty. Users are responsible for 
 **🔑 Privacy is freedom. Freedom is XMRGlobal.** 🚀  
 
 ---
+![Alt Text](image.jpg)
+![Alt Text](image0.jpg)
+![Alt Text](image1.jpg)
+![Alt Text](image2.jpg)
+![Alt Text](image3.jpg)
